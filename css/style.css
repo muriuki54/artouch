@@ -399,22 +399,22 @@
          transition: all 1s;
    }
    
-   .step3 .tleft {
+.step3 .tleft {
        /* left: 35%;
        top: 25%; */
-       left: 37%;
-       top: 29%;
-       width: 400px;
+       left: calc(50% - 250px);
+       top: calc(50% - 200px);
+       /* width: 400px; */
        width: 500px;
        height: 400px;
          transition: all 1s;
    }
    
-   .step3 .tright {
+.step3 .tright {
        /* right: 35%;
        top: 25%; */
-       right: 34%;
-       top: 29%;
+       right: calc(50% - 250px);
+       top: calc(50% - 200px);
        /* width: 400px; */
        width: 500px;
        height: 400px;
@@ -424,6 +424,15 @@
 .step3 .tleft img,
 .step3 .tright img {
   height: 100%;
+  width: 100%;
+}
+
+.step3 .tleft img.img2 {
+  transform: translateX(-15%);
+}
+
+.step3 .tright img.img2 {
+  transform: translateX(15%);
 }
 
 .step3 .tleft img {
