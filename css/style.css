@@ -892,16 +892,23 @@ FIXED LOGO BACKGROUND
    
    @media screen and (max-width: 480px) {
 
-    /* .step2 .tleft {
+    .step2 .tleft {
       left: -30%;
     }
     .step2 .tright {
       right: -30%;
-    } */
+    }
 
     .step2 .tleft,
     .step2 .tright {
       width: 100% !important;
+    }
+
+    .step3 .tleft {
+      left: 0%;
+    }
+    .step3 .tright {
+      right: 0%;
     }
 
     .step3 .tleft img.img2,
