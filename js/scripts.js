@@ -30,7 +30,7 @@ $(window).scroll(function() {
       $(".step1").addClass("step4");
 
       $(".fixed_logo").addClass("show");
-      $(".fixed_logo").removeClass("hide");
+      // $(".fixed_logo").removeClass("hide");
 
       $(".fixed_logo_inner_text").addClass("fadeIn");
         
@@ -39,7 +39,7 @@ $(window).scroll(function() {
         $(".step1").removeClass("step4");
 
       $(".fixed_logo").removeClass("show");
-      $(".fixed_logo").addClass("hide");
+      // $(".fixed_logo").addClass("hide");
 
       $(".fixed_logo_inner_text").removeClass("fadeIn");
     }
