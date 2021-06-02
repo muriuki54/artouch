@@ -42,7 +42,6 @@ $(window).scroll(function() {
       $(".fixed_logo").addClass("hide");
 
       $(".fixed_logo_inner_text").removeClass("fadeIn");
-
     }
 
 });
