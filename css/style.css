@@ -400,22 +400,16 @@
    }
    
 .step3 .tleft {
-       /* left: 35%;
-       top: 25%; */
        left: calc(50% - 250px);
        top: calc(50% - 200px);
-       /* width: 400px; */
        width: 500px;
        height: 400px;
          transition: all 1s;
    }
    
 .step3 .tright {
-       /* right: 35%;
-       top: 25%; */
        right: calc(50% - 250px);
        top: calc(50% - 200px);
-       /* width: 400px; */
        width: 500px;
        height: 400px;
         transition: all 1s;
@@ -684,10 +678,10 @@ FIXED LOGO BACKGROUND
   animation: fillClippath 0.75s linear forwards;
 }
 
-.fixed_logo.hide {
+/* .fixed_logo.hide {
   display: flex;
   animation: hideClippath 0.75s linear forwards;
-}
+} */
 
 .fixed_logo .fixed_logo_inner {
   background: url("../images/tcutp.svg") left top, url("../images/tcutsp.svg") right top;
@@ -708,12 +702,12 @@ FIXED LOGO BACKGROUND
   }
 }
 
-.fixed_logo.hide .fixed_logo_inner {
+/* .fixed_logo.hide .fixed_logo_inner {
   animation: hideClippath 0.5s linear forwards;
   animation-delay: 0.25s;
-}
+} */
 
-@keyframes hideClippath {
+/* @keyframes hideClippath {
   from {
     clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
   }
@@ -721,7 +715,7 @@ FIXED LOGO BACKGROUND
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   }
 
-}
+} */
 
 .fixed_logo_inner {
   min-width: 500px;
